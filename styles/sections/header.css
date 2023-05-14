@@ -1,0 +1,8 @@
+.nav-link {
+    font-family: "Roboto", ;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+
+    color: #212121;
+}

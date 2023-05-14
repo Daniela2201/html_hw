@@ -1,0 +1,19 @@
+@import "./styles/variables.css";
+@import "./styles/normilize.css";
+
+@import "./styles/sections/header.css";
+@import "./styles/sections/hero.css";
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
