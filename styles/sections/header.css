@@ -1,8 +1,44 @@
+.header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .nav-link {
-    font-family: "Roboto", ;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: calc(16 / 14);
+  font-family: var(--family-roboto);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
 
-    color: #212121;
+  color: var(--color-black);
+}
+.nav-list {
+  display: flex;
+}
+.header-address-list {
+  display: flex;
+}
+.logo {
+  font-family: var(--family-raleway);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: var(--color-blue);
+  margin-right: 93px;
+}
+.logo-span {
+  color: #000000;
+}
+.nav-item:not(:last-child) {
+  margin-right: 50px;
+}
+.nav {
+  margin-right: 344px;
+}
+.header-address-item {
+  margin-right: 50px;
+}
+.header-address-linl {
+  color: var(--color-gray);
 }

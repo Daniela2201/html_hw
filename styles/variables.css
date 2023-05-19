@@ -1,4 +1,9 @@
 :root {
-    --family-roboto: "Roboto", ;
-    --family-raleway: "Raleway", ;
+    --family-roboto: "Roboto", sans-serif;
+    --family-raleway: "Raleway", sans-serif;
+
+    --color-black: #212121;
+    --color-gray: #757575;
+    --color-blue: #2196F3;
+    
 }

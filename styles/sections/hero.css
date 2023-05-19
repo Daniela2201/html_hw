@@ -1,0 +1,32 @@
+.section-hero {
+  width: 1600px;
+  height: 600px;
+  background-color: #2f303a;
+}
+.hero-text {
+  font-family: var(--family-roboto);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+
+  color: #ffffff;
+}
+
+.hero-button {
+  position: absolute;
+  width: 216px;
+  height: 50px;
+  left: 692px;
+  top: 430px;
+
+  background: #2196f3;
+  color: #ffffff;
+}

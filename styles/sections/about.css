@@ -1,0 +1,6 @@
+.about-list {
+  font-family: var(--family-roboto);
+}
+.about-text {
+  color: var(--color-gray);
+}
