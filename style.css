@@ -3,3 +3,8 @@
 
 @import "./styles/sections/header.css";
 @import "./styles/sections/hero.css";
+@import "./styles/sections/about.css";
+@import "./styles/sections/work.css";
+@import "./styles/sections/team.css";
+@import "./styles/sections/footer.css";
+@import "./styles/sections/portfolio.css";

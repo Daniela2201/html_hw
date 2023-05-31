@@ -1,0 +1,33 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 215px;
+
+  background-color: #2f303a;
+}
+footer .logo-span {
+  color: white;
+}
+footer .logo {
+  margin-bottom: 20px;
+}
+.footer-itel:not(:last-child) {
+  margin-bottom: 9px;
+}
+.footer-itel {
+  font-family: var(--family-roboto);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-itel:first-child {
+  color: white;
+}
+
+.footer-link {
+  color: inherit;
+}

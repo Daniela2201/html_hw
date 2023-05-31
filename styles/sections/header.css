@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  border-bottom: 1px solid #ececec;
 }
 .nav-link {
   font-family: var(--family-roboto);
@@ -14,6 +15,10 @@
 }
 .nav-list {
   display: flex;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--color-blue);
 }
 .header-address-list {
   display: flex;
@@ -40,5 +45,16 @@
   margin-right: 50px;
 }
 .header-address-linl {
+  font-family: var(--family-roboto);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  font-style: normal;
+
   color: var(--color-gray);
+}
+.header-address-linl:hover,
+.header-address-linl:focus {
+  color: var(--color-blue);
 }

@@ -1,128 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Document</title>
-    <link rel="stylesheet" href="">
-</head>
-<body>
-    <header class="portfolio-header">
-        <a class="portfolio-header-logo" href="./index.html">WebStudio</a>
-    <nav class="portfolio-header-nav">
-        <ul class="portfolio-header-nav-list">
-            <li class="portfolio-header-nav-item">
-                <a class="portfolio-header-nav-link" href="./index.html">Студія</a>
-            </li>
-            <li class="portfolio-header-nav-item">
-                <a class="portfolio-header-nav-link" href="../portfolio.html">Портфоліо</a>
-            </li>
-            <li class="portfolio-header-nav-item">
-                <a class="portfolio-header-nav-link" href="#">Контакти</a>
-            </li>
+  </head>
+  <body>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <header class="header">
+      <a class="logo" href="./index.html"
+        >Web<span class="logo-span">Studio</span></a
+      >
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Студія</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active-page" href="./portfolio.html"
+              >Портфоліо</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Контакти</a>
+          </li>
         </ul>
-    </nav>
-    <address class="portfolio-header-address">
-        <ul class="portfolio-header-address-list">
-            <li class="portfolio-header-address-item">
-                <a class="portfolio-header-address-link" target="_blank" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a>
-            </li>
-            <li class="portfolio-header-address-item">
-                <a class="portfolio-header-address-link" target="_blank" href="tel:+38 096 111 11 11"
-                >+38 096 111 11 11</a>
-            </li>
+      </nav>
+      <address class="header-address">
+        <ul class="header-address-list">
+          <li class="header-address-item">
+            <a
+              class="header-address-linl"
+              target="_blank"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="header-address-item">
+            <a
+              class="header-address-linl"
+              target="_blank"
+              href="tel:+38 096 111 11 11"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
-    </address>
+      </address>
     </header>
-    <main class="portfolio-main">
-        <section class="portfolio-sectio">
-            <h1 class="portfolio-sectio-hero">Портфоліо</h1>
-            <ul class="portfolio-sectio-list-" >
-                <li class="portfolio-sectio-item">
-                    <button class="portfolio-sectio-button" type="button">Усі</button>
-                </li>
-                <li class="portfolio-sectio-item">
-                    <button class="portfolio-sectio-button" type="button">Веб-сайти</button>
-                </li>
-                <li class="portfolio-sectio-item">
-                    <button class="portfolio-v-button" type="button">Додатки</button> 
-                <li>
-                <li class="portfolio-sectio-item">
-                    <button class="portfolio-sectio-button" type="button">Дизайн</button>
-                </li> 
-                <li class="portfolio-sectio-item">
-                    <button class="portfolio-sectio-button" type="button">Маркетинг</button>
-                </li> 
-            </ul>
-            <ul class="portfolio-sectio-list">
-                <li class="portfolio-sectio-item">
-                    <img class="portfolio-sectio-img" src="./images/Profile/img-1.jpg" alt="Технокряк">
-                    <b class="portfolio-sectio-highlight">Технокряк</b>
-                    <p class="portfolio-sectio-text">Веб-сайт</p>
-                </li>
-                <li class="portfolio-sectio-item">
-                    <img class="portfolio-sectio-img" src="./images/Profile/img-2.jpg" alt="Постер New Orlean vs Golden Star">
-                    <b class="portfolio-sectio-highlight">Постер New Orlean vs Golden Star</b>
-                    <p class="portfolio-sectio-text">Дизайн</p>
-                </li>
-                <li class="portfolio-sectio-item">
-                    <img class="portfolio-sectio-img" src="./images/Profile/img-3.jpg" alt="Ресторан Seafood">
-                    <b class="portfolio-sectio-highlight">Ресторан Seafood</b>
-                    <p class="portfolio-sectio-text">Додаток</p>
-                </li>
-                <li class="portfolio-sectio-item">
-                    <img class="portfolio-sectio-img" src="./images/Profile/img-4.jpg" alt="Проєкт Prime">
-                    <b class="portfolio-sectio-highlight">Проєкт Prime</b>
-                    <p class="portfolio-sectio-text">Маркетинг</p>
-                </li>
-                <li class="portfolio-sectio-item">
-                    <img class="portfolio-sectio-img" src="./images/Profile/img-5.jpg" alt="Проєкт Boxes">
-                    <b class="portfolio-sectio-highlight">Проєкт Boxes</b>
-                    <p class="portfolio-sectio-text">Додаток</p>
-                </li>
-                <li class="portfolio-sectio-item">
-                    <img class="portfolio-sectio-img" src="./images/Profile/img-6.jpg" alt="Inspiration has no Borders">
-                    <b class="portfolio-sectio-highlight">Inspiration has no Borders</b>
-                    <p class="portfolio-sectio-text">Веб-сайт</p>
-                </li>
-                <li class="portfolio-sectio-item">
-                    <img class="portfolio-sectio-img" src="./images/Profile/img-7.jpg" alt="Видання Limited Edition">
-                    <b class="portfolio-sectio-highlight">Видання Limited Edition</b>
-                    <p class="portfolio-sectio-text">Дизайн</p>
-                </li>
-                <li class="portfolio-sectio-item">
-                    <img class="portfolio-sectio-img" src="./images/Profile/img-8.jpg" alt="Проєкт LABПроєкт LABПроєкт LAB">
-                    <b class="portfolio-sectio-highlight">Проєкт LABПроєкт LABПроєкт LAB</b>
-                    <p class="portfolio-sectiotext">Маркетинг</p>
-                </li>
-                <li class="portfolio-sectio-item">
-                    <img class="portfolio-sectio-img" src="./images/Profile/img-9.jpg" alt="Growing Business">
-                    <b class="portfolio-sectio-highlight">Growing Business</b>
-                    <p class="portfolio-sectio-text">Додаток</p>
-                </li>
-            </ul>
-        </section>
+    <main class="main">
+      <section class="section-portfolio">
+        <h1 class="portfolio-sectio-hero">Портфоліо</h1>
+        <ul class="sectio-list">
+          <li class="sectio-item">
+            <button class="portfolio-sectio-button" type="button">Усі</button>
+          </li>
+          <li class="sectio-item">
+            <button class="portfolio-sectio-button" type="button">
+              Веб-сайти
+            </button>
+          </li>
+          <li class="sectio-item">
+            <button class="portfolio-sectio-button" type="button">
+              Додатки
+            </button>
+          </li>
+          <li class="sectio-item">
+            <button class="portfolio-sectio-button" type="button">
+              Дизайн
+            </button>
+          </li>
+          <li class="sectio-item">
+            <button class="portfolio-sectio-button" type="button">
+              Маркетинг
+            </button>
+          </li>
+        </ul>
+        <ul class="portfolio-sectio-list">
+          <li class="portfolio-sectio-item">
+            <img
+              class="portfolio-sectio-img"
+              src="./images/Profile/img-1.jpg"
+              alt="Технокряк"
+            />
+            <div class="text-container">
+              <b class="portfolio-sectio-highlight">Технокряк</b>
+              <p class="portfolio-sectio-text">Веб-сайт</p>
+            </div>
+          </li>
+          <li class="portfolio-sectio-item">
+            <img
+              class="portfolio-sectio-img"
+              src="./images/Profile/img-2.jpg"
+              alt="Постер New Orlean vs Golden Star"
+            />
+            <div class="text-container">
+              <b class="portfolio-sectio-highlight"
+                >Постер New Orlean vs Golden Star</b
+              >
+              <p class="portfolio-sectio-text">Дизайн</p>
+            </div>
+          </li>
+          <li class="portfolio-sectio-item">
+            <img
+              class="portfolio-sectio-img"
+              src="./images/Profile/img-3.jpg"
+              alt="Ресторан Seafood"
+            />
+            <div class="text-container">
+              <b class="portfolio-sectio-highlight">Ресторан Seafood</b>
+              <p class="portfolio-sectio-text">Додаток</p>
+            </div>
+          </li>
+          <li class="portfolio-sectio-item">
+            <img
+              class="portfolio-sectio-img"
+              src="./images/Profile/img-4.jpg"
+              alt="Проєкт Prime"
+            />
+            <div class="text-container">
+              <b class="portfolio-sectio-highlight">Проєкт Prime</b>
+              <p class="portfolio-sectio-text">Маркетинг</p>
+            </div>
+          </li>
+          <li class="portfolio-sectio-item">
+            <img
+              class="portfolio-sectio-img"
+              src="./images/Profile/img-5.jpg"
+              alt="Проєкт Boxes"
+            />
+            <div class="text-container">
+              <b class="portfolio-sectio-highlight">Проєкт Boxes</b>
+              <p class="portfolio-sectio-text">Додаток</p>
+            </div>
+          </li>
+          <li class="portfolio-sectio-item">
+            <img
+              class="portfolio-sectio-img"
+              src="./images/Profile/img-6.jpg"
+              alt="Inspiration has no Borders"
+            />
+            <div class="text-container">
+              <b class="portfolio-sectio-highlight"
+                >Inspiration has no Borders</b
+              >
+              <p class="portfolio-sectio-text">Веб-сайт</p>
+            </div>
+          </li>
+          <li class="portfolio-sectio-item">
+            <img
+              class="portfolio-sectio-img"
+              src="./images/Profile/img-7.jpg"
+              alt="Видання Limited Edition"
+            />
+            <div class="text-container">
+              <b class="portfolio-sectio-highlight">Видання Limited Edition</b>
+              <p class="portfolio-sectio-text">Дизайн</p>
+            </div>
+          </li>
+          <li class="portfolio-sectio-item">
+            <img
+              class="portfolio-sectio-img"
+              src="./images/Profile/img-8.jpg"
+              alt="Проєкт LAB"
+            />
+            <div class="text-container">
+              <b class="portfolio-sectio-highlight">Проєкт LAB</b>
+              <p class="portfolio-sectio-text">Маркетинг</p>
+            </div>
+          </li>
+          <li class="portfolio-sectio-item">
+            <img
+              class="portfolio-sectio-img"
+              src="./images/Profile/img-9.jpg"
+              alt="Growing Business"
+            />
+            <div class="text-container">
+              <b class="portfolio-sectio-highlight">Growing Business</b>
+              <p class="portfolio-sectio-text">Додаток</p>
+            </div>
+          </li>
+        </ul>
+      </section>
     </main>
-    <footer class="portfolio-footer">
-        <a class="portfolio-footer-logo" href="./index.html">WebStudio</a>
-        <address class="portfolio-footer-address">
-            <ul class="portfolio-footer-list">
-                <li class="portfolio-footer-item">
-                    <a class="" type="_blank" href="https://goo.gl/maps/y5X9nS27S2TrQVY58"
-                    >м. Київ, пр-т Лесі Українки, 26</a>
-                </li>
-                <li class="portfolio-footer-item">
-                    <a class="" type="_blank" href="mailto:info@devstudio.com"
-                    >info@devstudio.com</a>
-                </li>
-                <li class="portfolio-footer-item">
-                    <a class="" type="_blank" href="tel:+38 096 111 11 11"
-                    >+38 096 111 11 11</a>
-                </li>
-            </ul>
-        </address>
+    <footer class="footer">
+      <a class="logo" href="./index.html"
+        >Web<span class="logo-span">Studio</span></a
+      >
+      <address class="footer-address">
+        <ul class="footer-list">
+          <li class="footer-itel">
+            <a
+              class="footer-link"
+              type="_blank"
+              href="https://goo.gl/maps/y5X9nS27S2TrQVY58"
+              >м. Київ, пр-т Лесі Українки, 26</a
+            >
+          </li>
+          <li class="footer-itel">
+            <a
+              class="footer-link"
+              type="_blank"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="footer-itel">
+            <a class="footer-link" type="_blank" href="tel:+38 096 111 11 11"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </address>
     </footer>
-</body>
+  </body>
 </html>
