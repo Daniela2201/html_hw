@@ -1,10 +1,10 @@
 @import "./styles/variables.css";
 @import "./styles/normilize.css";
 
-@import "./styles/sections/header.css";
-@import "./styles/sections/hero.css";
-@import "./styles/sections/about.css";
-@import "./styles/sections/work.css";
-@import "./styles/sections/team.css";
-@import "./styles/sections/footer.css";
-@import "./styles/sections/portfolio.css";
+@import "./styles/sections/./index/header.css";
+@import "./styles/sections/./index/hero.css";
+@import "./styles/sections/./index/about.css";
+@import "./styles/sections/./index/work.css";
+@import "./styles/sections/./index/./team.css";
+@import "./styles/sections/./index/footer.css";
+@import "./styles/sections/./portfolio/portfolio.css";
