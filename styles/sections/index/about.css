@@ -36,3 +36,12 @@
 .section-about {
   margin-bottom: 94px;
 }
+.about-list-svg {
+  display: flex;
+  justify-content: space-around;
+}
+.about-box {
+  background-color: f5f4fa;
+  width: 270px;
+  justify-content: center;
+}

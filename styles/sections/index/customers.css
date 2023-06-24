@@ -1,0 +1,16 @@
+.section-customers {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.customers-title {
+  display: flex;
+  justify-content: center;
+}
+.customers-itel {
+  display: flex;
+  justify-content: center;
+}
+.customers-svg {
+  display: flex;
+  justify-content: center;
+}

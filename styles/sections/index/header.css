@@ -58,3 +58,11 @@
 .header-address-linl:focus {
   color: var(--color-blue);
 }
+.header-address-svg {
+  display: flex;
+  justify-content: center;
+}
+.header-address-svg:hover,
+.header-address-svg:focus {
+  color: var(--color-blue);
+}

@@ -33,6 +33,12 @@
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
-  background: #2196f3;
+  background: var(--color-blue);
   color: #ffffff;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--color-blue);
+  background-color: #ffffff;
 }

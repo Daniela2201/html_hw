@@ -29,6 +29,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  width: 1116;
 }
 .sectio-list:not(:last-child) {
   margin-right: 8px;
