@@ -3,14 +3,31 @@
   padding-bottom: 94px;
 }
 .customers-title {
-  display: flex;
-  justify-content: center;
+  text-align: center;
+  margin-top: 94px;
 }
 .customers-itel {
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 94px;
+  width: 170px;
+  height: 92px;
+  border-radius: 4px;
+  color: #afb1b8;
+
+  fill: #afb1b8;
 }
-.customers-svg {
+
+.customers-itel svg {
+  fill: inherit;
+}
+.customers-list {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+.customers-itel:not(:last-child) {
+  margin-right: 30px;
 }
