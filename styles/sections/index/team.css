@@ -44,6 +44,8 @@
   letter-spacing: 0.03em;
 
   color: var(--color-gray);
+
+  margin-bottom: 16px;
 }
 .team-highlight {
   font-family: var(--family-roboto);
@@ -59,4 +61,28 @@
 }
 .team-img {
   margin-bottom: 30px;
+}
+.team-social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team-social-item:not(:last-child) {
+  margin-right: 10px;
+}
+.team-social-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: #afb1b8;
+}
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: var(--color-blue);
+  fill: #ffffff;
 }

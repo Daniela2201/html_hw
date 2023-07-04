@@ -34,18 +34,20 @@
       <address class="header-address">
         <ul class="header-address-list">
           <li class="header-address-item">
-            <svg
-              target="_blank"
-              href="mailto:info@devstudio.com"
-              width="10px"
-              height="16px"
-              class="address-svg"
-            >
-              <use
-                class="address-use"
-                href="./images/sprite.svg#icon-header-2"
-              ></use>
-            </svg>
+            <a class="address-link" href="#">
+              <svg
+                target="_blank"
+                href="mailto:info@devstudio.com"
+                width="10px"
+                height="16px"
+                class="address-svg"
+              >
+                <use
+                  class="address-use"
+                  href="./images/sprite.svg#icon-header-2"
+                ></use>
+              </svg>
+            </a>
             <a
               class="header-address-linl"
               target="_blank"
@@ -54,18 +56,20 @@
             >
           </li>
           <li class="header-address-item">
-            <svg
-              target="_blank"
-              href="tel:+38 096 111 11 11"
-              width="16px"
-              height="12px"
-              class="address-svg"
-            >
-              <use
-                class="address-use"
-                href="./images/sprite.svg#icon-header-1"
-              ></use>
-            </svg>
+            <a class="address-link" href="#">
+              <svg
+                target="_blank"
+                href="tel:+38 096 111 11 11"
+                width="16px"
+                height="12px"
+                class="address-svg"
+              >
+                <use
+                  class="address-use"
+                  href="./images/sprite.svg#icon-header-1"
+                ></use>
+              </svg>
+            </a>
             <a
               class="header-address-linl"
               target="_blank"
@@ -83,8 +87,8 @@
       </section>
       <section class="section-about">
         <h2 class="about-title">НАШІ ПЕРЕВАГИ</h2>
-        <ul class="about-list-svg">
-          <li class="about-itel-svg">
+        <ul class="about-list">
+          <li class="about-itel">
             <div class="about-box">
               <svg class="about-svg" width="70px" height="70px">
                 <use
@@ -93,8 +97,13 @@
                 ></use>
               </svg>
             </div>
+            <b class="about-highlight">УВАГА ДО ДЕТАЛЕЙ</b>
+            <p class="about-text">
+              Ідейні міркування, і навіть початок повсякденної роботи з
+              формування позиції.
+            </p>
           </li>
-          <li class="about-itel-svg">
+          <li class="about-itel">
             <div class="about-box">
               <svg class="about-svg" width="70px" height="70px">
                 <use
@@ -103,8 +112,13 @@
                 ></use>
               </svg>
             </div>
+            <b class="about-highlight">ПУНКТУАЛЬНІСТЬ</b>
+            <p class="about-text">
+              Завдання організації, особливо рамки і місце навчання кадрів тягне
+              у себе.
+            </p>
           </li>
-          <li class="about-itel-svg">
+          <li class="about-itel">
             <div class="about-box">
               <svg class="about-svg" width="70px" height="70px">
                 <use
@@ -113,8 +127,12 @@
                 ></use>
               </svg>
             </div>
+            <b class="about-highlight">ПЛАНУВАННЯ</b>
+            <p class="about-text">
+              Так само консультація з широким активом значною мірою зумовлює.
+            </p>
           </li>
-          <li class="about-itel-svg">
+          <li class="about-itel">
             <div class="about-box">
               <svg class="about-svg" width="70px" height="70px">
                 <use
@@ -123,30 +141,6 @@
                 ></use>
               </svg>
             </div>
-          </li>
-        </ul>
-        <ul class="about-list">
-          <li class="about-itel">
-            <b class="about-highlight">УВАГА ДО ДЕТАЛЕЙ</b>
-            <p class="about-text">
-              Ідейні міркування, і навіть початок повсякденної роботи з
-              формування позиції.
-            </p>
-          </li>
-          <li class="about-itel">
-            <b class="about-highlight">ПУНКТУАЛЬНІСТЬ</b>
-            <p class="about-text">
-              Завдання організації, особливо рамки і місце навчання кадрів тягне
-              у себе.
-            </p>
-          </li>
-          <li class="about-itel">
-            <b class="about-highlight">ПЛАНУВАННЯ</b>
-            <p class="about-text">
-              Так само консультація з широким активом значною мірою зумовлює.
-            </p>
-          </li>
-          <li class="about-itel">
             <b class="about-highlight">СУЧАСНІ ТЕХНОЛОГІЇ</b>
             <p class="about-text">
               Значимість цих проблем настільки очевидна, що реалізація планових
@@ -192,18 +186,36 @@
             />
             <b class="team-highlight">Ігор Дем'яненко</b>
             <p class="team-text">Product Designer</p>
-            <svg class="team-svg" width="20px" height="20px">
-              <use href="./images/sprite.svg#icon-address-1"></use>
-            </svg>
-            <svg class="team-svg" width="20px" height="20px">
-              <use href="./images/sprite.svg#icon-address-2"></use>
-            </svg>
-            <svg class="team-svg" width="20px" height="20px">
-              <use href="./images/sprite.svg#icon-address-3"></use>
-            </svg>
-            <svg class="team-svg" width="20px" height="20px">
-              <use href="./images/sprite.svg#icon-address-4"></use>
-            </svg>
+            <ul class="team-social-list">
+              <li class="team-social-item">
+                <a href="#" class="team-social-link">
+                  <svg class="team-svg" width="20px" height="20px">
+                    <use href="./images/sprite.svg#icon-address-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-social-item">
+                <a href="#" class="team-social-link">
+                  <svg class="team-svg" width="20px" height="20px">
+                    <use href="./images/sprite.svg#icon-address-2"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-social-item">
+                <a href="#" class="team-social-link">
+                  <svg class="team-svg" width="20px" height="20px">
+                    <use href="./images/sprite.svg#icon-address-3"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-social-item">
+                <a href="#" class="team-social-link">
+                  <svg class="team-svg" width="20px" height="20px">
+                    <use href="./images/sprite.svg#icon-address-4"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
           </li>
           <li class="team-itel">
             <img
@@ -213,18 +225,36 @@
             />
             <b class="team-highlight">Ольга Рєпіна</b>
             <p class="team-text">Frontend Developer</p>
-            <svg width="20px" height="20px">
-              <use href="./images/sprite.svg#icon-address-1"></use>
-            </svg>
-            <svg class="team-svg" width="20px" height="20px">
-              <use href="./images/sprite.svg#icon-address-2"></use>
-            </svg>
-            <svg class="team-svg" width="20px" height="20px">
-              <use href="./images/sprite.svg#icon-address-3"></use>
-            </svg>
-            <svg class="team-svg" width="20px" height="20px">
-              <use href="./images/sprite.svg#icon-address-4"></use>
-            </svg>
+            <ul class="team-social-list">
+              <li class="team-social-item">
+                <a href="#" class="team-social-link">
+                  <svg class="team-svg" width="20px" height="20px">
+                    <use href="./images/sprite.svg#icon-address-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-social-item">
+                <a href="#" class="team-social-link">
+                  <svg class="team-svg" width="20px" height="20px">
+                    <use href="./images/sprite.svg#icon-address-2"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-social-item">
+                <a href="#" class="team-social-link">
+                  <svg class="team-svg" width="20px" height="20px">
+                    <use href="./images/sprite.svg#icon-address-3"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-social-item">
+                <a href="#" class="team-social-link">
+                  <svg class="team-svg" width="20px" height="20px">
+                    <use href="./images/sprite.svg#icon-address-4"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
           </li>
           <li class="team-itel">
             <img
@@ -234,18 +264,36 @@
             />
             <b class="team-highlight">Микола Тарасов</b>
             <p class="team-text">Marketing</p>
-            <svg class="team-svg" width="20px" height="20px">
-              <use href="./images/sprite.svg#icon-address-1"></use>
-            </svg>
-            <svg class="team-svg" width="20px" height="20px">
-              <use href="./images/sprite.svg#icon-address-2"></use>
-            </svg>
-            <svg class="team-svg" width="20px" height="20px">
-              <use href="./images/sprite.svg#icon-address-3"></use>
-            </svg>
-            <svg class="team-svg" width="20px" height="20px">
-              <use href="./images/sprite.svg#icon-address-4"></use>
-            </svg>
+            <ul class="team-social-list">
+              <li class="team-social-item">
+                <a href="#" class="team-social-link">
+                  <svg class="team-svg" width="20px" height="20px">
+                    <use href="./images/sprite.svg#icon-address-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-social-item">
+                <a href="#" class="team-social-link">
+                  <svg class="team-svg" width="20px" height="20px">
+                    <use href="./images/sprite.svg#icon-address-2"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-social-item">
+                <a href="#" class="team-social-link">
+                  <svg class="team-svg" width="20px" height="20px">
+                    <use href="./images/sprite.svg#icon-address-3"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-social-item">
+                <a href="#" class="team-social-link">
+                  <svg class="team-svg" width="20px" height="20px">
+                    <use href="./images/sprite.svg#icon-address-4"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
           </li>
           <li class="team-itel">
             <img
@@ -255,30 +303,36 @@
             />
             <b class="team-highlight">Михайло Єрмаков</b>
             <p class="team-text">UI Designer</p>
-            <svg class="team-svg" width="20px" height="20px">
-              <use
-                class="team-use"
-                href="./images/sprite.svg#icon-address-1"
-              ></use>
-            </svg>
-            <svg class="team-svg" width="20px" height="20px">
-              <use
-                class="team-use"
-                href="./images/sprite.svg#icon-address-2"
-              ></use>
-            </svg>
-            <svg class="team-svg" width="20px" height="20px">
-              <use
-                class="team-use"
-                href="./images/sprite.svg#icon-address-3"
-              ></use>
-            </svg>
-            <svg class="team-svg" width="20px" height="20px">
-              <use
-                class="team-use"
-                href="./images/sprite.svg#icon-address-4"
-              ></use>
-            </svg>
+            <ul class="team-social-list">
+              <li class="team-social-item">
+                <a href="#" class="team-social-link">
+                  <svg class="team-svg" width="20px" height="20px">
+                    <use href="./images/sprite.svg#icon-address-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-social-item">
+                <a href="#" class="team-social-link">
+                  <svg class="team-svg" width="20px" height="20px">
+                    <use href="./images/sprite.svg#icon-address-2"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-social-item">
+                <a href="#" class="team-social-link">
+                  <svg class="team-svg" width="20px" height="20px">
+                    <use href="./images/sprite.svg#icon-address-3"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-social-item">
+                <a href="#" class="team-social-link">
+                  <svg class="team-svg" width="20px" height="20px">
+                    <use href="./images/sprite.svg#icon-address-4"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
           </li>
         </ul>
       </section>
@@ -286,49 +340,49 @@
         <h2 class="customers-title">Постійні клієнти</h2>
         <ul class="customers-list">
           <li class="customers-itel">
-            <svg class="team-svg" width="106px" height="60px">
+            <svg class="customers-svg" width="106px" height="60px">
               <use
-                class="team-use"
+                class="customers-use"
                 href="./images/sprite.svg#icon-customers-1"
               ></use>
             </svg>
           </li>
           <li class="customers-itel">
-            <svg class="team-svg" width="106px" height="60px">
+            <svg class="customers-svg" width="106px" height="60px">
               <use
-                class="team-use"
+                class="customers-use"
                 href="./images/sprite.svg#icon-customers-2"
               ></use>
             </svg>
           </li>
           <li class="customers-itel">
-            <svg class="team-svg" width="106px" height="60px">
+            <svg class="customers-svg" width="106px" height="60px">
               <use
-                class="team-use"
+                class="customers-use"
                 href="./images/sprite.svg#icon-customers-3"
               ></use>
             </svg>
           </li>
           <li class="customers-itel">
-            <svg class="team-svg" width="106px" height="60px">
+            <svg class="customers-svg" width="106px" height="60px">
               <use
-                class="team-use"
+                class="customers-use"
                 href="./images/sprite.svg#icon-customers-4"
               ></use>
             </svg>
           </li>
           <li class="customers-itel">
-            <svg class="team-svg" width="106px" height="60px">
+            <svg class="customers-svg" width="106px" height="60px">
               <use
-                class="team-use"
+                class="customers-use"
                 href="./images/sprite.svg#icon-customers-5"
               ></use>
             </svg>
           </li>
           <li class="customers-itel">
-            <svg class="team-svg" width="106px" height="60px">
+            <svg class="customers-svg" width="106px" height="60px">
               <use
-                class="team-use"
+                class="customers-use"
                 href="./images/sprite.svg#icon-customers-6"
               ></use>
             </svg>
@@ -365,6 +419,37 @@
           </li>
         </ul>
       </address>
+      <h2 class="footer-title">ПРИЄДНУЙТЕСЬ</h2>
+      <ul class="footer-list-noaddress">
+        <li class="footer-itel-noaddress">
+          <a class="footer-link-noaddress" href="#">
+            <svg class="team-svg" width="20px" height="20px">
+              <use href="./images/sprite.svg#icon-address-1"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-itel-noaddress">
+          <a class="footer-link-noaddress" href="#">
+            <svg class="team-svg" width="20px" height="20px">
+              <use href="./images/sprite.svg#icon-address-2"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-itel-noaddress">
+          <a class="footer-link-noaddress" href="#">
+            <svg class="team-svg" width="20px" height="20px">
+              <use href="./images/sprite.svg#icon-address-3"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-itel-noaddress">
+          <a class="footer-link-noaddress" href="#">
+            <svg class="team-svg" width="20px" height="20px">
+              <use href="./images/sprite.svg#icon-address-4"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>

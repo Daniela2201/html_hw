@@ -49,21 +49,14 @@
   margin-bottom: 30px;
   justify-content: space-between;
 }
-.about-svg {
-  margin-top: 25px;
-  margin-left: auto;
-}
 .header-address-item {
   display: flex;
 }
 .address-svg {
   margin-right: 10px;
 }
-.team-svg {
+.about-box {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.team-svg:not(:last-child) {
-  margin-right: ;
 }

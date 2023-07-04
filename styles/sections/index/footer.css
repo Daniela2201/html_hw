@@ -31,3 +31,33 @@ footer .logo {
 .footer-link {
   color: inherit;
 }
+.footer-link-noaddress {
+  fill: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.footer-list-noaddress {
+  display: contents;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.footer-itel-noaddress:not(:last-child) {
+  margin-right: 10px;
+}
+.footer-title {
+  font-family: var(--family-roboto);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #ffffff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 72 px;
+}
