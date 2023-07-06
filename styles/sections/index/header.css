@@ -1,15 +1,19 @@
 .header {
   height: 80px;
+  border-bottom: 1px solid #ececec;
+  display: flex;
+  justify-content: center;
+}
+.header > .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: 1px solid #ececec;
 }
 .nav-link {
   font-family: var(--family-roboto);
   font-weight: 500;
   font-size: 14px;
-  line-height: calc(16 / 14);
+  line-height: calc(16 / 12);
 
   color: var(--color-black);
 }
@@ -39,10 +43,10 @@
   margin-right: 50px;
 }
 .nav {
-  margin-right: 344px;
+  margin-right: 318px;
 }
-.header-address-item {
-  margin-right: 50px;
+.header-address-item:not(:last-child) {
+  margin-right: 30px;
 }
 .header-address-linl {
   font-family: var(--family-roboto);

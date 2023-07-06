@@ -3,11 +3,14 @@
   height: 600px;
   background-color: #2f303a;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 94px;
+}
+.section-hero > .container {
+  display: flex;
   justify-content: center;
   align-items: center;
-
-  margin-bottom: 94px;
+  flex-direction: column;
 }
 .hero-text {
   font-family: var(--family-roboto);
