@@ -22,7 +22,7 @@
 }
 .nav-link:hover,
 .nav-link:focus {
-  color: var(--color-blue);
+  fill: var(--color-blue);
 }
 .header-address-list {
   display: flex;
@@ -48,7 +48,7 @@
 .header-address-item:not(:last-child) {
   margin-right: 30px;
 }
-.header-address-linl {
+.address-text {
   font-family: var(--family-roboto);
   font-weight: 500;
   font-size: 14px;
@@ -56,21 +56,26 @@
   letter-spacing: 0.02em;
   font-style: normal;
 
-  color: var(--color-gray);
+  color: inherit;
 }
-.header-address-linl:hover,
-.header-address-linl:focus {
-  color: var(--color-blue);
-}
-.header-address-svg {
+.address-svg {
   display: flex;
   justify-content: center;
+  fill: inherit;
 }
-.header-address-svg:hover,
-.header-address-svg:focus {
-  color: var(--color-blue);
+.address-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-gray);
+  fill: var(--color-gray);
 }
 .address-link:hover,
 .address-link:focus {
   color: var(--color-blue);
+  fill: var(--color-blue);
+}
+.header-address-list {
+  display: flex;
+  justify-content: center;
 }

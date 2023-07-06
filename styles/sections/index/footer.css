@@ -52,24 +52,18 @@ footer .logo {
 .footer-itel-noaddress:not(:last-child) {
   margin-right: 10px;
 }
-.footer-title {
-  font-family: var(--family-roboto);
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-align: left;
-  color: #ffffff;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .footer-left {
   margin-right: 70px;
 }
 .footer-title {
   margin-bottom: 20px;
+  text-align: start;
+  font-family: var(--family-roboto);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 .footer-itel-noaddress {
   border-radius: 100%;
