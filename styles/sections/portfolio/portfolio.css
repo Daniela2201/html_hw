@@ -45,6 +45,9 @@
 .portfolio-sectio-button:focus {
   color: #ffffff;
   background-color: var(--color-blue);
+  border-radius: 4px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .portfolio-sectio-item {
@@ -67,7 +70,6 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
-  background: #ffffff;
   border: 1px solid #eeeeee;
 }
 .portfolio-sectio-highlight {
@@ -95,4 +97,13 @@
 }
 .section-portfolio {
   padding-bottom: 94px;
+}
+.portfolio-sectio-item:hover,
+.portfolio-sectio-item:focus {
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+.portfolio-sectio-item:hover,
+.portfolio-sectio-img:focus {
+  fill: #2196f3e5;
 }
