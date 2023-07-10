@@ -105,5 +105,19 @@
 }
 .portfolio-sectio-item:hover,
 .portfolio-sectio-img:focus {
-  fill: #2196f3e5;
+}
+.portfolio-p {
+  color: #fff;
+  font-family: var(--family-roboto);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: calc(28 / 18);
+  letter-spacing: 0.54px;
+  background-color: rgba(33, 150, 243, 0.9);
+
+  display: flex;
+  text-align: left;
+  align-items: center;
+  width: 370px;
+  height: 294px;
 }
