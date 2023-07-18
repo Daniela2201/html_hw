@@ -125,6 +125,10 @@
 .portfolio-link:focus .portfolio-p {
   top: 63px;
   right: 24px;
-  left: 24px;
+  left: 10px;
+
   background-color: rgba(33, 150, 243, 0.9);
+}
+.portfolio-sectio-button {
+  cursor: pointer;
 }

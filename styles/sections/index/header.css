@@ -34,7 +34,6 @@
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
   color: var(--color-blue);
-  margin-right: 93px;
 }
 .logo-span {
   color: #000000;
@@ -69,6 +68,7 @@
   align-items: center;
   color: var(--color-gray);
   fill: var(--color-gray);
+  height: 16px;
 }
 .address-link:hover,
 .address-link:focus {
@@ -78,4 +78,7 @@
 .header-address-list {
   display: flex;
   justify-content: center;
+}
+.nav {
+  margin-left: 93px;
 }
