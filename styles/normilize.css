@@ -1,3 +1,9 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -35,6 +41,7 @@ p {
 button {
   padding: 0px;
   border: none;
+  margin: 0;
 }
 a.active-page {
   color: var(--color-blue);

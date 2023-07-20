@@ -75,10 +75,18 @@
   color: var(--color-blue);
   fill: var(--color-blue);
 }
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--color-blue);
+  fill: var(--color-blue);
+}
 .header-address-list {
   display: flex;
   justify-content: center;
 }
 .nav {
   margin-left: 93px;
+}
+.address-svg {
+  max-height: 16px;
 }
