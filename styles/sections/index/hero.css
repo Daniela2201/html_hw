@@ -18,6 +18,7 @@
   flex-direction: column;
 }
 .hero-text {
+  color: #ffffff;
   font-family: var(--family-roboto);
   font-weight: 900px;
   font-size: 44px;
@@ -28,8 +29,6 @@
   text-transform: uppercase;
   width: 696px;
   margin-bottom: 30px;
-
-  color: #ffffff;
 }
 
 .hero-button {
@@ -59,28 +58,46 @@
   background: #fff;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-
   position: absolute;
   top: 50%;
   left: 50%;
-
+  padding-left: 40px;
+  padding-right: 40px;
   transform: translate(-50%, -50%);
 }
 .hero-div {
   background: rgba(0, 0, 0, 0.2);
-  position: fixed;
-  top: 0px;
+  position: absolute;
+  top: 0;
   left: 0;
 
   width: 100vw;
   height: 100vh;
 }
 .hero-window-link {
-  width: 18px;
-  height: 18px;
-  align-items: flex-end;
-  top: 0;
-  right: 0;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+.svg-c {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}
+.svg-c:hover,
+.svg-c:focus {
+  cursor: pointer;
+}
+.svg-a:hover,
+.svg-a:focus {
+  cursor: pointer;
+}
+.svg-a {
+  position: absolute;
+  top: 8px;
+  right: 8px;
 }
 .window-h2 {
   color: var(--color-black);
@@ -93,6 +110,22 @@
   padding-top: 40px;
   padding-bottom: 12px;
   width: 448px;
+}
+.input {
+  fill: #212121;
+  width: 16px;
+  height: 15px;
+  flex-shrink: 0;
+  margin-top: 20px;
+}
+.svg:hover,
+.svg:focus {
+  cursor: pointer;
+}
+.svg {
+  position: absolute;
+  left: 53px;
+  top: 440px;
 }
 .window-input {
   width: 448px;
@@ -125,6 +158,14 @@
   letter-spacing: 0.42px;
   display: block;
 }
+.text-a {
+  color: var(--color-gray);
+  font-family: var(--family-roboto);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.42px;
+}
 .text:not(:first-child) {
   padding-top: 10px;
 }
@@ -136,9 +177,6 @@
   line-height: calc(24 / 14);
   letter-spacing: 0.42px;
   text-decoration-line: underline;
-}
-.hero-window {
-  padding-left: 41px;
 }
 .submit {
   color: #fff;
@@ -161,4 +199,7 @@
   background: #fff;
   color: #2196f3;
   cursor: pointer;
+}
+.label {
+  padding-left: 12px;
 }

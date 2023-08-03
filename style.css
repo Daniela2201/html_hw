@@ -1,12 +1,16 @@
-@import "./styles/variables.css";
-@import "./styles/normilize.css";
-@import "./styles/base.css";
+/*:root {
+    --family-roboto: "Roboto", sans-serif;
+    --family-raleway: "Raleway", sans-serif;
 
-@import "./styles/sections/index/header.css";
-@import "./styles/sections/index/hero.css";
-@import "./styles/sections/index/about.css";
-@import "./styles/sections/index/work.css";
-@import "./styles/sections/index/team.css";
-@import "./styles/sections/index/customers.css";
-@import "./styles/sections/index/footer.css";
-@import "./styles/sections/portfolio/portfolio.css";
+    --color-black: #212121;
+    --color-gray: #757575;
+    --color-blue: #2196f3;
+}
+*/
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}/*# sourceMappingURL=style.css.map */
