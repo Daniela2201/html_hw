@@ -1,0 +1,12 @@
+.title {
+    font-family: getFont("roboto");
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: calc(60/40);
+    color: getColor("black");
+}
+div.is-open {
+    opacity: 1;
+    transform: translateX(0%);
+}

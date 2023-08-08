@@ -1,0 +1,14 @@
+@mixin flex-centered ($align: center, $justify: center) {
+ display: flex;
+ align-items: $align;
+ justify-content: $justify;
+}
+@mixin absolute-centered ($position: absolute) {
+ position: $position;
+ top: 50%;
+ left: 50%;
+ transform: translate(50%, 50%);
+}
+body {
+    background-color: white;
+}

@@ -1,0 +1,23 @@
+.section-work {
+    margin-bottom: 94px;
+}
+
+.work-title {
+    font-family: getFont("roboto");
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+
+    color: getColor("black");
+}
+
+.work-list {
+    @include flex-centered;
+}
+
+.work-itel:not(:last-child) {
+    margin-right: 30px;
+}

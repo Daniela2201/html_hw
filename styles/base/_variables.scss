@@ -1,24 +1,21 @@
-/*:root {
-    --family-roboto: "Roboto", sans-serif;
-    --family-raleway: "Raleway", sans-serif;
-
-    --color-black: #212121;
-    --color-gray: #757575;
-    --color-blue: #2196f3;
+$colors: (
+    "black":#212121,
+    "gray":#757575,
+    "blue":#2196f3,
+);
+@function getColor($key) {
+    @return map-get($colors, $key);
 }
-*/
 $fonts: (
     "roboto": "Roboto" 
     sans-serif,
     "raleway": "Raleway" 
     sans-serif,
 );
-$colors: (
-    ""
-);
+
 @function getFont($key){
-    @return map-get($colors, $key );
+    @return map-get($fonts, $key);
 }
 .title-from-variables {
-    font-family: map-get($fonts, "poppins");
+    font-family: map-get($fonts, "roboto");
 }

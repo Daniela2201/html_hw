@@ -1,2 +1,13 @@
+@import"./styles/base/normilize";
 @import "./styles/base/variables";
+@import "./styles/mixins/centered";
 @import "./styles/base/container";
+@import "./styles/base/base";
+
+@import"./styles/sections/index/header";
+@import"./styles/sections/index/hero";
+@import"./styles/sections/index/customers";
+@import"./styles/sections/index/about";
+@import"./styles/sections/index/work";
+@import"./styles/sections/index/team";
+@import"./styles/sections/index/footer";

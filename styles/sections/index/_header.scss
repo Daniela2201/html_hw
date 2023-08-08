@@ -1,0 +1,101 @@
+.header {
+    height: 80px;
+    border-bottom: 1px solid #ececec;
+    display: flex;
+    justify-content: center;
+}
+
+.header>.container {
+    @include flex-centered;
+}
+
+.nav-link {
+    font-family: getFont("roboto");
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 12);
+    color: getColor("black");
+    &:hover,
+    &:focus {
+        fill: getColor("blue");
+    }
+}
+
+.nav-list {
+    display: flex;
+}
+
+.header-address-list {
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo {
+    font-family: getFont("raleway");
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+    color: getColor(blue);
+}
+
+.logo-span {
+    color: #000000;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.nav {
+    margin-right: 318px;
+}
+
+.header-address-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.address-text {
+    font-family: getFont("robot");
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    font-style: normal;
+
+    color: inherit;
+}
+
+.address-svg {
+    display: flex;
+    justify-content: center;
+    fill: inherit;
+}
+
+.address-link {
+    @include flex-centered;
+    color: getColor("gray");
+    fill: getColor("gray");
+    height: 16px;
+
+    &:hover,
+    &:focus {
+        color: getColor("blue");
+        fill: getColor("blue");
+    }
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: getColor("blue");
+    fill: getColor("blue");
+}
+
+.nav {
+    margin-left: 93px;
+}
+
+.address-svg {
+    max-height: 16px;
+}
