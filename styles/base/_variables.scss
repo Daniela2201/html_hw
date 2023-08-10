@@ -7,15 +7,10 @@ $colors: (
     @return map-get($colors, $key);
 }
 $fonts: (
-    "roboto": "Roboto" 
-    sans-serif,
-    "raleway": "Raleway" 
-    sans-serif,
+    "roboto": "Roboto",
+    "raleway": "Raleway",
 );
-
-@function getFont($key){
-    @return map-get($fonts, $key);
-}
-.title-from-variables {
-    font-family: map-get($fonts, "roboto");
+@function getFont($key) {
+    @return #{map-get($fonts, $key)},
+    sans-serif;
 }

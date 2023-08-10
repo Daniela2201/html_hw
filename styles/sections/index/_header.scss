@@ -17,33 +17,29 @@
     color: getColor("black");
     &:hover,
     &:focus {
-        fill: getColor("blue");
+        color: getColor("blue");
     }
-}
 
+
+}
 .nav-list {
     display: flex;
 }
-
 .header-address-list {
     display: flex;
     justify-content: center;
-
 }
-
 .logo {
     font-family: getFont("raleway");
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31 / 26);
     letter-spacing: 0.03em;
-    color: getColor(blue);
+    color: getColor("blue");
 }
-
 .logo-span {
     color: #000000;
 }
-
 .nav-item:not(:last-child) {
     margin-right: 50px;
 }
