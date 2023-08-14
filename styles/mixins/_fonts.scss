@@ -1,0 +1,25 @@
+$fonts: (
+    "roboto": "Roboto",
+    "raleway": "Raleway",
+);
+
+@function getFont($key) {
+    @return #{map-get($fonts, $key)},
+    sans-serif;
+}
+@mixin roboto ($size, $weight, $height ,$spacing:0, $style:normal) {
+        font-family: "Roboto", sans-serif;
+        font-size: #{$size}px;
+        font-style: $style;
+        font-weight: $weight;
+        line-height: calc($height / $size);
+        letter-spacing: #{$spacing}px;
+}
+@mixin roboto ($size, $weight, $height , $spacing: 0, $style: normal) {
+    font-family: "Raleway", sans-serif;
+    font-size: #{$size}px;
+    font-style: $style;
+    font-weight: $weight;
+    line-height: calc($height / $size);
+    letter-spacing: #{$spacing}px;
+}

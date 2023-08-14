@@ -56,32 +56,26 @@ font-family: getFont("roboto");
 
     color: getColor("black");
 }
-
 .team-img {
     margin-bottom: 30px;
 }
-
 .team-social-list {
     @include flex-centered;
 }
-
-.team-social-link {
-    @include flex-centered;
-}
-
 .team-social-item:not(:last-child) {
     margin-right: 10px;
 }
-
 .team-social-link {
     width: 44px;
     height: 44px;
     border-radius: 50%;
     fill: #afb1b8;
-}
-
-.team-social-link:hover,
-.team-social-link:focus {
+    @include flex-centered;
+    transition: border, fill 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    &:hover,
+&:focus {
     background-color: getColor("blue");
     fill: #ffffff;
 }
+}
+

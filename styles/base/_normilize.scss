@@ -44,7 +44,7 @@ button {
 }
 
 a.active-page {
-    color: var(--color-blue);
+    color: getColor("blue");
 }
 label {
     display: block;
